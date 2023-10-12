@@ -2,7 +2,7 @@ var destination = ['sajek', 'coxbazar', 'bandorban', 'sundarbon', 'bagerhat']; /
 
 console.log(destination[2]); //array er value read korar niyom
 destination[2] = 'thailand'; // index er man set korte
-var position = destination.indexOf('bagerhat') //index er position number jante indexOf use hoy
+var position = destination.indexOf('bagerhat') //index er position number jante/index find korte indexOf use hoy
 
 destination.push('singapur'); //add korte push
 destination.pop(); //remove korte pop
@@ -20,5 +20,5 @@ else if (destination.length !== 3) {
 
 }
 else {
-    
+
 }
